@@ -14,6 +14,7 @@ statements, which should result in a more precise result.
 - [Esprima](https://github.com/ariya/esprima) a wonderful JavaScript parser
 - [Escodegen](https://github.com/Constellation/escodegen)
 - [Prime](https://github.com/mootools/prime) awesome little OOP library
+- [r.js](https://github.com/jrburke/r.js) optimizer to build the distribution files
 
 ### Reporters
 
@@ -48,6 +49,18 @@ The output stream can be redirected to a file using
 	node test.js > report.html
 
 so the result can be viewed in a browser
+
+#### Build distribution
+
+To build the files into dist folder:
+
+	npm install
+	cd ..
+	git clone https://github.com/mootools/prime.git
+	cd prime
+	make convert-amd
+	cd ../CoverJS
+	make
 
 #### Screenshot
 
