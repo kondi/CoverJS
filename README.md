@@ -1,3 +1,11 @@
+Fork details
+===============
+
+Forked from the [original CoverJS](https://github.com/arian/CoverJS) by
+[Pusztai Tibor](https://github.com/kondi) to have a
+[Makefile](https://github.com/kondi/CoverJS/blob/master/Makefile) and build process for
+[AMD-compliant distribution files](https://github.com/kondi/CoverJS/tree/gh-pages/dist).
+
 CoverJS (alpha)
 ===============
 
